@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylesModal.css">
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img src="./img/digital-house-logo.png" style="width:167px; height:50px ;" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 float-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Itens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" role="button" id="btn-mensagem" data-toggle="modal"
+                        data-bs-toggle="modal" data-bs-target="#exampleModalLong">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="banner">
+        <div class="banner-box">
+            <h1 class="h1">DH Flix</h1>
+            <p class="banner-paragrafo">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+
+        </div>
+        <button class="btn-banner" type="button">
+            <span>Explorar</span>
+        </button>
+    </div>
+
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container-button">
+                    <button type="button" class="btn-close border-0 bg-transparent " data-bs-dismiss="modal"
+                        aria-label="Close">
+                    </button>
+                </div>
+
+                <div class="modal-header border-0 container">
+                    <div class="container">
+                        <img src="./img/digital-house-logo.png" class="img-logo" alt="Digital House ">
+                    </div>
+
+                </div>
+
+                <form>
+                    <div class="mb-3 ">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="exampleInputEmail1" class="form-label ms-4">Email address</label>
+                                <input type="email" class="form-control mx-auto" style="width: 450px;"
+                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label ms-4">Password</label>
+                        <input type="password" class="form-control mx-auto" style="width: 450px;"
+                            id="exampleInputPassword1">
+                    </div>
+                </form>
+
+                <div class="modal-footer border-0">
+                    <button type="submit" class="btn btn-success" style="width: 97%;">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

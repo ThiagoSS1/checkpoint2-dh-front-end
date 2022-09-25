@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+ 
+}
+
+header {
+  margin: 0 auto;
+  height: 80px;
+  width: 428px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+nav ul {
+  display: flex;
+ 
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ------- Hero Desktop-3 Styles------- */
+
+
+
+header {
+  margin: 0 auto;
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ------- Banner Hero Styles------- */
+
+.banner-hero {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  background-image: url("../img/card1-banner.png");
+}
+
+main {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 1240px;
+}
+
+/* ------- Hero Styles------- */
+
+.hero {
+    width: 100%;
+    height: 50%;
+    
+}
+
+.container-3 {
+    width: 100%;
+    height: 100%;
+}
+
+.container-3 h2  {
+    margin-left: 120px;
+    margin-top: 42px;
+    width: 199px;
+    height: 75px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.container-3 .description {
+     margin: 0 0 30px 120px;
+     text-align: justify;
+     font-family: "Roboto", sans-serif;
+     font-size:18px;
+     width: 800px;
+}
+
+.container-stars {
+    display: flex;
+    margin: 20px 0 30px 120px;
+}
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-hero h3 {
+    margin: 20px 0 0 120px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container-diretor {
+    display: flex; 
+}
+
+.container-diretor .container-hero p {
+    margin-top: 5px;
+    margin-left: 120px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 133, 255, 0.75)
+}
+
+.stars {
+    width: 32px;
+    min-width: 32px;
+    height: 100%;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 690px;
+    position: absolute;
+    bottom: 0;
+    padding: 40px 120px 32px 120px;
+}
+
+.frame {
+    display: flex;
+    height: 659px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    background-color: #171717;
+   
+}
+
+.container-footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    padding: 80px;
+    
+}
+
+.container-footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.container-footer nav p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav-footer .contatos {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-footer h3 {
+  font-family: "Roboto", sans-serif;
+  font-style:normal;
+  color: white;
+}
+
+
+.copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
