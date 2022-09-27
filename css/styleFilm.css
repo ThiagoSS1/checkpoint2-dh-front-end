@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    font-family: "Roboto", sans-serif;
+    padding: 16px 80px;  
+}
+
+
+nav ul {
+    display: flex;
+    padding: 10px;
+  }
+  
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;  
+    text-align: center;
+    font-weight: 400;
+    line-height: 21px;
+    width: 80px;
+ 
+}
+
+nav ul li .home {
+    color: #E51B3E;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #626262;
+    
+}
+
+
+div.banner-joker {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/card1.png") /*center center/cover no-repeat*/;
+    background-position:  center center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 649px;
+
+}
+
+div.banner-after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/card2.png") /*center center/cover no-repeat*/;
+    background-position:  center center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 649px;
+
+}
+
+div.banner-captain_marvel {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/card3.png") /*center center/cover no-repeat*/;
+    background-position:  center center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 649px;
+
+}
+
+div.banner-dora {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/card4.png") /*center center/cover no-repeat*/;
+    background-position:  center center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 649px;
+
+}
+
+div.banner-1917 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/card5.png") /*center center/cover no-repeat*/;
+    background-position:  center center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 649px;
+
+}
+
+div.banner-thor {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.8) 100%), url("../img/card6.png") /*center center/cover no-repeat*/;
+    background-position:  center center ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 649px;
+
+}
+
+main {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 122px;
+
+}
+
+.container h2 {
+    width: 400px;
+    height: 75px;
+    left: 122px;
+    top: 761px;  
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 1500;
+    color: #000000;
+
+}
+
+.container-stars {
+    margin-bottom: 32px;
+    margin-top: 5px;
+    
+}
+
+.description {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Roboto", sans-serif;
+    color: #000000bf;   
+}
+
+.crew {
+    display: flex;
+    margin: 32px 0px 46px 0px;   
+
+}
+
+.crew-film {
+    padding-right: 250px;
+}
+
+.crew-film h3 {
+    font-style:normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+.crew-film p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 21px;
+    color: #0085ffbf;
+
+}
+
+/*mudar a cor do traço entre os escritores*/
+
+.traco {
+    text-decoration: #000000 75%;
+    
+}
+
+.video h3 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+
+.video {
+    width: 100%;
+    height: 100% ;
+    margin-bottom: 50px;
+    
+}
+
+.frame {
+    display: flex;
+    width: 100%;
+    height: 659px
+    ;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* height:50%; */
+    background: #171717;
+    flex-direction: column;
+}
+
+.container-footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171717;
+    padding: 80px;    
+}
+
+.container-footer nav p {
+    font-family: "Roboto", sans-serif;
+    color: #ffffffbf;
+}
+
+.nav-footer {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+.nav-footer .contatos {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-footer h3 {
+  font-family: "Roboto", sans-serif;
+  font-style:normal;
+  color: white;
+}
+
+
+.copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    color: #ffffffbf;
+}
